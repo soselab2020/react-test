@@ -1,5 +1,4 @@
 {
-    "homepage": "https://soselab2020.github.io/react-test",
     "scripts": {
         "start": "snowpack dev",
         "build": "snowpack build"
@@ -12,8 +11,4 @@
     "devDependencies": {
         "snowpack": "^3.2.2"
     }
-	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-	}
 }
